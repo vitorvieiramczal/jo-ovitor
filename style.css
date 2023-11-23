@@ -1,0 +1,33 @@
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 500px;
+    color: white;
+    background-color: cornflowerblue;
+}
+form {
+    background-color:darkcyan;
+    padding: 20px;
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+label {
+    margin-bottom: 15;
+}
+input{
+    padding: 20;
+    margin-bottom: 30;
+}
+button {
+    margin-top: 20x;
+    padding: 10px;
+}
+body{
+    transition:background-color 1s, color 1s;
+}
+.darkmode{
+    background-color: black;
+    color: #fff;
+}
